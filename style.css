@@ -34,10 +34,23 @@ header > div {
     width: 20px;
     margin-right: 1rem;
   }
-#navdva  {
-   
-    display: flex;
-    justify-content: space-between;
+
+
+
+#navdva form {
+    background-image: url("C:/Users/ivana/Desktop/Ironhack/lab-html-exercise/images/magnifying-glass.png");
+    position:left;
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+#navdva input {
+width: 1000px;
+height: 30px;
+letter-spacing: 1px;
+border: none;
+background-color: rgb(242, 241, 240);
+margin-left: 0 200px 0 200px;
 }
 
 #navdva button {
@@ -48,13 +61,14 @@ header > div {
   border: none;
   padding: 10px;
 }
+
 #navdva a {
     font-size: 1em;
   letter-spacing: 0.5px;
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 10px 10px;
     display: inline;
-  margin: 10px;
+  
 }
 
 #navdva .join {
@@ -64,6 +78,7 @@ header > div {
   border-width: 1px; 
   border-style:inset;
   border-color:black;
+  padding: 5px 30px;
 }
 
 #navdva .login {
