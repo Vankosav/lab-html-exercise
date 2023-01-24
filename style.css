@@ -34,20 +34,41 @@ header > div {
     width: 20px;
     margin-right: 1rem;
   }
-
-.npm-logo {
-    width: 50px;
-    margin-right: 1rem;
+#navdva  {
+   
+    display: flex;
+    justify-content: space-between;
 }
 
-.search {
-    width: 50px;
-    margin-right: 1rem;
+#navdva button {
+    background-color: #FB3B49;
+    color: white;
+    font-size: 0.5em;
+  letter-spacing: 1.5px;
+  border: none;
+  padding: 10px;
+}
+#navdva a {
+    font-size: 1em;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding: 10px 30px;
+    display: inline;
+  margin: 10px;
 }
 
-.search-logo {
-    width: 50px;
-    margin-right: 1rem;
+#navdva .join {
+    font-size: 1em;
+    color: black;
+  letter-spacing: 0.5px;
+  border-width: 1px; 
+  border-style:inset;
+  border-color:black;
+}
+
+#navdva .login {
+    font-size: 1em;
+    color: black;
 }
 
 h1 {
@@ -82,21 +103,18 @@ h1 {
   text-decoration: none;
   padding: 10px 30px;
    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
-   position: left;
-    display: inline-block;
+    display: inline;
+  margin: 10px
   }
   
+
 #general-information .link {
   font-size: 1em;
   text-decoration: none;
   color: black;
 background-color: white;
 letter-spacing: 0.5px;
-text-align: center;
-text-decoration: none;
 padding: 10px 30px;
-display: inline-block;
-justify-content: center;
 }
 
 #info {
@@ -121,7 +139,7 @@ justify-content: center;
 transform: skew(9deg,0deg);
    }
 
-   #info .para {
+   .para {
     width: 400px;
     text-align:center;
     display: inline-block;
@@ -132,23 +150,18 @@ transform: skew(9deg,0deg);
    }
 
    #structure {
-    display: flex;
-    justify-content: space-evenly;
-    width: 400px;
-    flex-direction: column;
-  }
-
-
-#structure .boxes {
-    margin: 0 auto;
-    padding: 75px 0;
-    justify-content: space-around;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    width: 370px;
-  }
+    height: 200px;
+     display:flex;
+     justify-content:center;
+     flex-direction: row;
+     align-items: center;
+     margin: 0 40px 0 40px;
+     text-align: left;
+   }
   
+  .boxes {
+    margin: 60px;
+  }
   
   h3 {
     color:#ED1C24;
@@ -158,7 +171,7 @@ transform: skew(9deg,0deg);
  
 
 .text {
-    font-size: 0.5em;
+    font-size: 1em;
     font-weight: 10;
     margin: 20px 0;
   }
@@ -168,20 +181,19 @@ transform: skew(9deg,0deg);
     height: 20px;
   }
 
-  #create {
-    display: inline-block;
-  justify-content: center;
-  text-decoration: none;
-  align-items: center;
-  }
+
   
   #create a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
     background-color: black;
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
     color: white;
     font-size: 1em;
   letter-spacing: 0.5px;
-  padding: 10px 30px;
+  margin: 300px 500px;
+  padding: 20px;
   }
  
 
